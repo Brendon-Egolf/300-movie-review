@@ -1,18 +1,14 @@
-html {
-  background-repeat: no-repeat;
-  background-image: linear-gradient(darkred, black);
-  background-size: cover; }
+body {
+  background: linear-gradient(darkred, black) no-repeat top;
+  background-size: cover;
+  min-height: 100%; }
 
 #review {
-  position: absolute;
   padding: 2.5%;
   padding-top: 1%;
   background: white;
   border: solid 3px black;
-  top: 10%;
-  left: 10%;
-  margin-bottom: 10%;
-  right: 10%;
+  margin: 5% 5% 5% 5%;
   max-width: 100%; }
 
 header {
