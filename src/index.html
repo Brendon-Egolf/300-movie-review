@@ -16,7 +16,28 @@
 
 
         <script type="application/ld+json">
-
+            {
+              "@context":"http://schema.org",
+              "@type":"Review",
+              "author":{
+                "@type":"Person",
+                "name":"Dudley Storey",
+                "sameAs":"https://twitter.com/dudleystorey"
+              },
+              "datePublished":"2007-03-10",
+              "description":"300 is a great time, and a fine movie",
+              "itemReviewed":{
+                "@type":"Movie",
+                "name":"300",
+                "sameAs":"http://www.imdb.com/title/tt0416449/"
+              },
+              "reviewRating":{
+                "@type":"Rating",
+                "worstRating":0,
+                "bestRating":5,
+                "ratingValue":4
+              }
+            }
         </script>
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -91,7 +112,7 @@
                 <img src="img/xerxes.jpg" id="xerxes">
                 <p>
                     With such an epic scope – and, let it be said, with Frank Miller’s own tendency for fascistic
-                    plotlines (1) – it is tempting to interpret <cite>300</cite> as a modern allegory. A lot of ink has
+                    plotlines <sup><a href="#footnote">1</a></sup> – it is tempting to interpret <cite>300</cite> as a modern allegory. A lot of ink has
                     been spilled in recent weeks in an attempt to draw the actions of men 2,500 years dead into parallel
                     with modern life: indeed, with the United States currently engaged in battle with a significant
                     portion of the Middle East, it is almost demanded that the reviewer do so.
@@ -115,8 +136,9 @@
                     Northern Africa, and drew from the ethnic groups that lived in (and continued to inhabit) those
                     lands. Another part is the attraction / repulsion the West has had with “Orientalism” since at least
                     the Romantic era, if not the time of the Greeks. And more importantly, perhaps, is an excellent
-                    point made in Maryann (“the flick filosopher”) <a>Johanson’s</a> review of the film that deserves to
-                    be quoted in full:
+                    point made in Maryann (“the flick filosopher”)
+                    <a href="http://www.flickfilosopher.com/2007/03/300-review.html">Johanson’s review</a> of the film
+                    that deserves to be quoted in full:
                 </p>
                 <blockquote>
                     “This exists in its own kind of mythic space much like the one that all ancient literature lived in
@@ -148,7 +170,7 @@
                     <i class="fa fa-star-o"></i>
                 <br>
                 <img src="img/cliff.jpg" id="cliff">
-                <p class="footnote">
+                <p id="footnote">
                     1. I can hear the sound of Miller fanboys whetting their swords as I write this, so I will quickly
                     define my terms: Miller is fascistic in the sense that his male characters tend to be Nietzschean
                     supermen, focused with a will on the belief that “might makes right”. Leonidas is a hero, but he is

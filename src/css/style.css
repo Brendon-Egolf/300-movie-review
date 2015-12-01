@@ -44,7 +44,7 @@ h2 {
   #main-article :first-child::first-line {
     font-variant: small-caps; }
 
-.footnote {
+#footnote {
   font-size: .75rem; }
 
 #comparison {
@@ -60,5 +60,9 @@ h2 {
   margin-top: 20px;
   width: 100%;
   border: solid 1px darkred; }
+
+@media print {
+  #review {
+    border: none; } }
 
 /*# sourceMappingURL=style.css.map */

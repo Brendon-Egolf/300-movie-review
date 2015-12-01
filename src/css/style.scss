@@ -60,7 +60,7 @@ h2 {
     font-size: 1rem;
 }
 
-.footnote {
+#footnote {
     font-size: .75rem;
 }
 
@@ -79,5 +79,13 @@ h2 {
     margin-top: 20px;
     width: 100%;
     border: solid 1px darkred;
+
+}
+
+@media print {
+    #review{
+        border: none;
+    }
+
 
 }
